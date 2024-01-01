@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+:root {
+
+    --special-black: #1F1E1E;
+    --primary: #3099D2;
+    --secondary: #fff;
+}
+body {
+    background: var(--primary);
+    color: var(--secondary);
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    position:fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top:0;
+}
+header p{
+    font-size: small;
+}
+footer{
+    display: flex;
+    position:fixed;
+    bottom:0;
+}
+#root
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact a
+{
+    text-decoration: none;
+    color: var(--special-black);
+}
+#contact a:hover
+{
+    color: var(--secondary);
+}
+
+#contact p{
+    margin: 5px;
+    padding: 0;
+}
